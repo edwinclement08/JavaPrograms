@@ -1,6 +1,6 @@
 /* Name: Edwin Clement
  * Roll No.: 7624
- * Aim: Add two Complex Numbers */
+ * Aim: Write a Program to add two complex numbers */
 
 
 import java.util.*;
@@ -32,7 +32,7 @@ class Complex   {
     }
 }
 
-public class Ex3   {
+public class Ex03   {
     public static void main(String args[])  {
         System.out.println("Enter the Value of First Complex Number");
         Complex c1 = new Complex();
@@ -45,11 +45,12 @@ public class Ex3   {
 }
 
 /* Output --
+edwin@edwin-hp:~/coding/JavaPrograms$ jc Ex03.java
 Enter the Value of First Complex Number
 Enter x and y for Complex number(x+iy):
-2 3
+23 12
 Enter the Value of Second Complex Number
 Enter x and y for Complex number(x+iy):
 12 54
-[14.0+57.0i]
+[35.0+66.0i]
 */

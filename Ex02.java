@@ -1,6 +1,6 @@
 /* Name: Edwin Clement
  * Roll No.: 7624
- * Aim: Total Number of Employees */
+ * Aim: Write a program that counts the total number of employees in an organization. */
 
 
 import java.io.*;
@@ -39,7 +39,7 @@ class Employee	{
 	
 }
 
-class Ex2	{
+class Ex02	{
 	public static void main(String[] args)	{
 		Scanner sc = new Scanner(System.in);
 
@@ -83,16 +83,17 @@ class Ex2	{
 }
 
 /* Output --
+edwin@edwin-hp:~/coding/JavaPrograms$ jc Ex02.java
 Enter Details of Employee 0
 Please Enter details of the Employee
-Name:edwin
-Salary:2332
+Name:Edwin
+Salary:200000
 Do you want to enter another Employee[Y/N]
 y
 Enter Details of Employee 1
 Please Enter details of the Employee
-Name:Hazel
-Salary:42536
+Name:Kevin
+Salary:230000
 Do you want to enter another Employee[Y/N]
 n
 The number of Employee:2

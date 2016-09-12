@@ -1,3 +1,9 @@
+/* Name: Edwin Clement
+ * Roll No.: 7624
+ * Aim: Write a program to implement single inheritance types.
+ *          Clock—DigitalClock */
+
+
 import java.util.*;
 
 class Clock {
@@ -40,7 +46,7 @@ class Clock {
     }
 
     void displayClock()   {
-        System.out.print("The Time is:");
+        System.out.print("The Time is: ");
         System.out.print(h+":"+m+"::"+s);
     }
 }
@@ -58,23 +64,24 @@ class DigitalClock extends Clock    {
         }
     }
 
-    DigitalClock(int h, int m, int s, String apm)   {
+    DigitalClock(int h, int m, int s)   {
         super(h, m, s);
-        this.apm = apm;
+        setTime(h, m, s);
     }
 
     void setTime(int h, int m, int s)   {
         super.setTime(h, m, s);
         if(h > 12)  {
-            h -= 12;
-            apm = "p.m.";
+            System.out.println("Yo");
+            this.h = h - 12 ;
+            apm = " p.m.";
         } else  {
-            apm = "a.m.";
+            apm = " a.m.";
         }
     }
 
     void display()  {
-        super.display();
+        super.displayClock();
         System.out.println(apm);
     }
 }
@@ -82,15 +89,20 @@ class DigitalClock extends Clock    {
 class Ex10 {
     public static void main(String[] args)  {
         Scanner sc = new Scanner(System.in);
-	int h=sc.nextInt();
-	int m=sc.nextInt();
-	int s=sc.nextInt();
-        DigitalClock dc=new DigitalClock(h,m,s,apm);
-	dc.display( h,m,s,apm)
-        System.out.println("The time is:"+h+m+s+apm);
-} 
-         
-
-      
-    }
+        System.out.println("Enter The Time in integers(in the order hour, min, sec::");
+        int h=sc.nextInt();
+        int m=sc.nextInt();
+        int s=sc.nextInt();
+        DigitalClock dc=new DigitalClock(h,m,s);
+        dc.display();
+    } 
 }
+
+/* Output --
+edwin@edwin-hp:~/coding/JavaPrograms$ jc Ex10.java
+Enter The Time in integers(in the order hour, min, sec::
+12 34 89
+The Time is: 12:35::29 a.m.
+
+*/
+

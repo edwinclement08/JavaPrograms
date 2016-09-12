@@ -1,11 +1,11 @@
 /* Name: Edwin Clement
  * Roll No.: 7624
- * Aim: Count No of Spaces, Digits, Characters, Special*/
+ * Aim: Write a program to count no of letters, digits, spaces, special characters in a string. */
 
 
 import java.util.*;
 
-class Ex7   {
+class Ex07   {
     public static void main(String[] args)  {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the String:");
@@ -29,10 +29,12 @@ class Ex7   {
 
 
 /* Output --
+edwin@edwin-hp:~/coding/JavaPrograms$ jc Ex07.java
 Enter the String:
-edwfbu 5389 *(%$
-No. of Letters 6
-No. of Digits 4
-No. of Spaces 2
-No. of Special Characters 4
+Edwin &#ar
+No. of Letters 7
+No. of Digits 0
+No. of Spaces 1
+No. of Special Characters 2
+
 */

@@ -1,13 +1,13 @@
 /* Name: Edwin Clement
  * Roll No.: 7624
- * Aim: Cosine Series*/
+ * Aim: Write a program to calculate cosine series Cos(x) = 1- x^2 /2! + x^4 /4! – x^6 /6! + .....*/
 
 
 import java.util.*;
 
 class Ex1C	{
 	public static void main(String [] args)	{
-		System.out.print("Enter the Values of 'x' anf 'n': ");
+		System.out.print("Enter the Values of 'x' and 'n': ");
 
 		Scanner sc = new Scanner( System.in);
 		double x = sc.nextDouble();
@@ -57,6 +57,7 @@ class CosSeries	{
 
 
 /* Output --
-Enter the Values of 'x' anf 'n': 45 54
+edwin@edwin-hp:~/coding/JavaPrograms$ jc Ex1C.java
+Enter the Values of 'x' and 'n': 45 100
 The Cos is 0.7071067811865475
 */

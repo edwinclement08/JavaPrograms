@@ -1,10 +1,12 @@
 /* Name: Edwin Clement
  * Roll No.: 7624
- * Aim: Display Frequency of Each Character in a String. */
+ * Aim: Write a program to accept a string and display each character of the string separately. A
+ * character should not be repeated. Along with this, display the number of times the character
+ * appears. */
 
 import java.util.*;
 
-public class Ex8    {
+public class Ex08    {
     public static void main(String[] args)  {
         System.out.print("Enter the string for which you want to count the frequency of: ");
         Scanner sc = new Scanner(System.in);
@@ -57,22 +59,21 @@ public class Ex8    {
 }
 
 /* Output
-Enter the string for which you want to count the frequency of: Edwin Clement
+edwin@edwin-hp:~/coding/JavaPrograms$ jc Ex08.java
+Enter the string for which you want to count the frequency of: Haven of Maven
 
 The Frequency Table is as Follows:
 +-----------+-----------+
 | Character | Frequency |
-|    'E'    |    1      |
-|    'd'    |    1      |
-|    'w'    |    1      |
-|    'i'    |    1      |
-|    'n'    |    2      |
-|    ' '    |    1      |
-|    'C'    |    1      |
-|    'l'    |    1      |
+|    'H'    |    1      |
+|    'a'    |    2      |
+|    'v'    |    2      |
 |    'e'    |    2      |
-|    'm'    |    1      |
-|    't'    |    1      |
+|    'n'    |    2      |
+|    ' '    |    2      |
+|    'o'    |    1      |
+|    'f'    |    1      |
+|    'M'    |    1      |
 +-----------+-----------+
 
 */

@@ -1,6 +1,6 @@
 /* Name: Edwin Clement
  * Roll No.: 7624
- * Aim: Display the Number Pattern*/
+ * Aim: Write a program to display the number pattern.*/
 
 
 import java.util.*;
@@ -46,6 +46,7 @@ class Pattern	{
 
 
 /* Output --
+edwin@edwin-hp:~/coding/JavaPrograms$ jc Ex1A.java
 Please Enter the number of lines:9
 
         1 
@@ -57,4 +58,5 @@ Please Enter the number of lines:9
   7 7 7 7 7 7 7 
  8 8 8 8 8 8 8 8 
 9 9 9 9 9 9 9 9 9 
+
 */

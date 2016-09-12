@@ -1,6 +1,6 @@
 /* Name: Edwin Clement
  * Roll No.: 7624
- * Aim: Print Employees in Ascending Order */
+ * Aim: Write a program to print the employee of an organization in ascending order of their salary. */
 
 
 import java.io.*;
@@ -39,7 +39,7 @@ class Employee	{
 	
 }
 
-class Ex5	{
+class Ex05	{
 	public static void main(String[] args)	{
 		System.out.println("Enter number of Employees");
 		Scanner sc = new Scanner(System.in);
@@ -80,17 +80,28 @@ class Ex5	{
 }
 
 /* Output --
+edwin@edwin-hp:~/coding/JavaPrograms$ jc Ex05.java
 Enter number of Employees
-2
+4
 Please Enter details of the Employee
-Name:edwin
-Salary:43324
+Name:Edwin
+Salary:1000000000
 Please Enter details of the Employee
-Name:kevin
-Salary:6547
+Name:Susan 
+Salary:4320000
+Please Enter details of the Employee
+Name:Somjit
+Salary:1223402  
+Please Enter details of the Employee
+Name:Denny
+Salary:3244536
 This is the List of Employees sorted on the basis of salary
 The Details of the employee are:
-Name: kevin Salary: 6547
+Name: Somjit Salary: 1223402
 The Details of the employee are:
-Name: edwin Salary: 43324
+Name: Denny Salary: 3244536
+The Details of the employee are:
+Name: Susan Salary: 4320000
+The Details of the employee are:
+Name: Edwin Salary: 1000000000
 */

@@ -1,6 +1,7 @@
 /* Name: Edwin Clement
  * Roll No.: 7624
- * Aim: Sort Numbers taken from Command Line */
+ * Aim: Write a program that takes three numbers as input arguments through command line and prints
+ * them in ascending order. */
 
 
 import java.util.*;
@@ -20,7 +21,7 @@ class Ex1B 	{
 		c = Integer.parseInt(args[2]);
 
 		Sort test = new Sort(a, b, c);
-        System.out.println("The given numbers in Sorted oreder(Ascending) is:->");
+        System.out.println("The given numbers in Sorted order(Ascending) is:->");
 		test.ascending();
 
 	}
@@ -52,6 +53,12 @@ class Sort	{
 }
 
 /* Output --
-bash-3.2$ java Ex1B 34 5624 2
-2 34 5624
+edwin@edwin-hp:~/coding/JavaPrograms$ jc Ex1B.java
+The Program is supposed to be used like:
+    java Ex1B <num1> <num2> <num3>
+where <num1>, <num2> and <num3> are three integers.
+edwin@edwin-hp:~/coding/JavaPrograms$ java Ex1B 123 4312  23
+The given numbers in Sorted order(Ascending) is:->
+23 123 4312
+
 */

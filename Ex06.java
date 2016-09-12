@@ -1,6 +1,8 @@
 /* Name: Edwin Clement
  * Roll No.: 7624
- * Aim:  Matrix Class*/
+ * Aim:  Write a program that defines a Matrix class with the functions such as readMatrix,
+ * displayMatrix, printTranspose, isSymmetric and Multiplication. Then using main function
+ * invoke these functions.*/
 
 
 import java.io.*;
@@ -85,7 +87,7 @@ class Matrix    {
     }
 }
 
-class Ex6   {
+class Ex06   {
     public static void main(String args[])   {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number of rows and column of Matrix 1:");
@@ -106,10 +108,11 @@ class Ex6   {
 
 
 /* Output --
+edwin@edwin-hp:~/coding/JavaPrograms$ jc Ex06.java
 Enter the number of rows and column of Matrix 1:
-2 2 
+2 2
 Enter the elements of the array, row-wise:
-1 2 3 4
+1 2 3  4
 Contents of the Matrix
 1 2 
 3 4 
@@ -120,8 +123,8 @@ It is false that it is Symmetric
 Enter the number of rows and column of Matrix 2:
 2 2
 Enter the elements of the array, row-wise:
-1 2 3 4
+4 5 6 7
 Contents of the Matrix
-3 9 
-14 28 
+12 18 
+35 49 
 */

@@ -1,10 +1,10 @@
 /* Name: Edwin Clement
  * Roll No.: 7624
- * Aim: Equivalen: Binary Number*/
+ * Aim: Write a Program to prints equivalent Binary Number of a given Decimal using Recursion.*/
 
 
 import java.util.*;
-class Ex4    {
+class Ex04    {
     public static void main(String[] args)  {
         int num;
         Scanner sc = new Scanner(System.in);
@@ -27,6 +27,7 @@ class Ex4    {
 
 
 /* Output --
-Enter the number:28
-011100
+edwin@edwin-hp:~/coding/JavaPrograms$ jc Ex04.java
+Enter the number:128
+010000000
 */
